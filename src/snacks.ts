@@ -1,8 +1,7 @@
-const snacks: string[] = ['cookie', 'chip', 'fruit', 'granola'];
-function print_snack(snacks: string[]): void {
-    for (const snack of snacks) {
-        console.log(snack);
-    }
-}
+export const snacks: string[] = ["cookie", "chip", "fruit", "granola"];
 
-print_snack(snacks);
+export function print_snacks(snacks: string[]): void {
+  for (const snack of snacks) {
+    console.log(snack);
+  }
+}
